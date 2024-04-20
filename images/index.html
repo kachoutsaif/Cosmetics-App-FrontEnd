@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style-responsive.css"   />
+</head>
+<body>
+    <div class="dashbord-container">
+        <div class="main-sidebar">
+            <div class="aside-header">
+                <div class="brand">
+                    <img src="img1.jpg" height="100px" width="150px" alt="" />
+                    <h3>Cosmetics-App</h3>
+                </div>
+                <div class="close" id="closeSidebar">
+                    <span class="material-icons">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <ul class="list-items">
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                dashboard
+                            </span>
+                            <span> Tableau De Bord </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                group
+                            </span>
+                            <span> Clients </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                shopping_cart 
+                            </span>
+                            <span> Commmandes </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                trending_up 
+                            </span>
+                            <span> Statistiques </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                textsms
+                            </span>
+                            <span> Messagerie </span>
+                            <span class="message-count">22</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                inventory
+                            </span>
+                            <span> Produits </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="active"> 
+                            <span class="material-icons">
+                                report
+                            </span>
+                            <span> Rapports </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                settings
+                            </span>
+                            <span> Reglages </span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#"> 
+                            <span class="material-icons">
+                                logout
+                            </span>
+                            <span> Deconnexion </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-container">
+            <h1 class="main-title">Dashbord</h1>
+            <div class="insights">
+                <div class="card">
+                    <div class="card-container">
+                        <div class="card-header">
+                            <span class="material-icons">
+                                bar_chart
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <h3>Ventes Totales</h3>
+                                <h1>2.03M</h1>
+                            </div>
+                            <div class="card-progress">
+                                <svg width="96" height="96" class="stroke-yellow">
+                                    <circle 
+                                     id="circle1" 
+                                     cx="38" 
+                                     cy="38" 
+                                     r="36"> 
+                                    </circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>17%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small> Sur les 48th prece</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-container">
+                        <div class="card-header">
+                            <span class="material-icons">
+                                add_shopping_cart
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <h3>Commandes</h3>
+                                <h1>2.03M</h1>
+                            </div>
+                            <div class="card-progress">
+                                <svg width="96" height="96" class="stroke-fuscha">
+                                    <circle 
+                                     id="circle2" 
+                                     cx="38" 
+                                     cy="38" 
+                                     r="36"> 
+                                    </circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>17%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small> Sur les 48th prece</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-container">
+                        <div class="card-header">
+                            <span class="material-icons">
+                                group_add
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <h3>Clients</h3>
+                                <h1>20.03M</h1>
+                            </div>
+                            <div class="card-progress">
+                                <svg width="96" height="96" class="stroke-cyan">
+                                    <circle 
+                                     id="circle3" 
+                                     cx="38" 
+                                     cy="38" 
+                                     r="36"> 
+                                    </circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>50%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small> Sur les 48th prece</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="recent-orders">
+                <div class="ro-title">
+                    <h2 class="recent-orders-title"> Commmandes recentes</h2>
+                    <a href="#" class="show all"> Tout Afficher</a>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>produit</th>
+                            <th>serie</th>
+                            <th>nom</th>
+                            <th>prix</th>
+                            <th>quantite</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PC</td>
+                            <td>cosmetics</td>
+                            <td>peau</td>
+                            <td class="text-fuscha">alergique</td>
+                            <td>asmatique</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </section>
+        </div>
+        <div class="extrabar">
+            <header class="header-right">
+                <button class="toggle-menu-btn" id="opensidebar">
+                    <span class="material-icons">
+                        menu
+                        </span>
+                </button>
+
+                <div class="toggle-theme">
+                    <span class="material-icons active"> light_mode</span>
+                    <span class="material-icons"> dark_mode</span>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-info">
+                        <p> Welcome, <strong>Saif</strong></p>
+                        <small>Admin</small>
+                    </div>
+                    <div class="profile-image">
+                        <img src="img2.png" alt="" width="100%">
+                    </div>
+                </div>
+            </header>
+
+            <div class="recent-updates">
+                <h2>Info Recentes</h2>
+                <div class="updates-container">
+                    <div class="update">
+                        <div class="profile-image">
+                            <img src="img2.png" alt="" width="100%">
+                        </div>
+
+                        <div class="message">
+                            <p><strong>Saif</strong> a commandé le produit #####</p>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-image">
+                            <img src="img2.png" alt="" width="100%">
+                        </div>
+
+                        <div class="message">
+                            <p><strong>sabrine</strong> a commandée le produit #######</p>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-image">
+                            <img src="img2.png" alt="" width="100%">
+                        </div>
+
+                        <div class="message">
+                            <p><strong>maleek</strong> a comandé le produit #####</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="analytics">
+                <h2>Evolution Des Ventes  </h2>
+                <div class="order">
+                    <div class="order-icon">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </div>
+
+                    <div class="order-details">
+                        <div class="info">
+                            <h3>COMMANDE DIRECT</h3>
+                            <small>48th Precendents</small>
+                        </div>
+                        <h4 class="precent-evo text-cyan">18%</h4>
+                    </div>
+                </div>
+                <div class="order">
+                    <div class="order-icon">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </div>
+
+                    <div class="order-details">
+                        <div class="info">
+                            <h3>COMMANDE DIRECT</h3>
+                            <small>48th Precendents</small>
+                        </div>
+                        <h4 class="precent-evo text-fuscha">18%</h4>
+                    </div>
+                </div>
+                <div class="order">
+                    <div class="order-icon">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </div>
+
+                    <div class="order-details">
+                        <div class="info">
+                            <h3>COMMANDE DIRECT</h3>
+                            <small>48th Precendents</small>
+                        </div>
+                        <h4 class="precent-evo text-yellow">18%</h4>
+                    </div>
+                </div>
+
+                <button class="new-product">
+                    <span class="material-icons"> add</span>
+                    <h3>Nouveau produit</h3>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
